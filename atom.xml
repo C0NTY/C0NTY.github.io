@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-23T02:08:37.605Z</updated>
+  <updated>2017-11-23T03:31:34.553Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,15 +18,24 @@
   
   <entry>
     <title>AWD思</title>
-    <link href="http://yoursite.com/2017/11/23/AWD%E6%80%9D/"/>
-    <id>http://yoursite.com/2017/11/23/AWD思/</id>
+    <link href="http://yoursite.com/2017/11/23/AWD%E6%80%9D%E8%B7%AF/"/>
+    <id>http://yoursite.com/2017/11/23/AWD思路/</id>
     <published>2017-11-23T02:08:37.000Z</published>
-    <updated>2017-11-23T02:08:37.605Z</updated>
+    <updated>2017-11-23T03:31:34.553Z</updated>
+    
+    <content type="html"><![CDATA[<p>思路整理<br>一·题目类型<br>    1·代码类型：php居多，偶尔会出现py，lua<br>    2·漏洞类型：sqli居多，文件包含，各种rce，文件上传<br>    3·未公开cms的0day；简单的漏洞；直接在index.php或者web根目录下放shell<br>二·攻击<br>    1·flag存在的两种模式：①向内网服务器发送http请求，返回请求中包含flag；②/home目录下放置flag文件<br>    2·web方向需要具备的能力<br>       ①快速的漏洞反应能力：有时候漏洞都是网上可以查到的。<br>       ②快速编写脚本的能力：所有人的服务是一样的，写脚本可以提高效率。<br>    3·①劣势时我们可以通过分析被攻击的流量分析别的队伍的payload，进行反打<br>       ②如果自己的服务器上被种了shell，删除然后根据shell分析其他队伍的路径密码<br>三·防守<br>    1·开始加固防守阶段<br>       ①连接上ssh后先把源码down下来，做好备份<br>       ②不违反主办方规则的前提下挂上自己的waf<br>       ③抓流量，可能主办方会发，也可能需要自己去抓<br>    2·自由时间防御<br>       ①发现敌人漏洞后记得第一时间修复自己的漏洞<br>       ②发现自己被攻击后可以尝试在不违反规则的情况下恢复备份</p>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;p&gt;思路整理&lt;br&gt;一·题目类型&lt;br&gt;    1·代码类型：php居多，偶尔会出现py，lua&lt;br&gt;    2·漏洞类型：sqli居多，文件包含，各种rce，文件上传&lt;br&gt;    3·未公开cms的0day；简单的漏洞；直接在index.php或者web根目录下放shel
+      
+    
     </summary>
     
+    
+      <category term="AWD" scheme="http://yoursite.com/tags/AWD/"/>
     
   </entry>
   
