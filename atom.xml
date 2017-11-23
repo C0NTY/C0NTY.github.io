@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-23T03:08:22.939Z</updated>
+  <updated>2017-11-23T02:08:37.605Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,22 +17,110 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2017/11/23/hello-world/"/>
-    <id>http://yoursite.com/2017/11/23/hello-world/</id>
-    <published>2017-11-23T03:08:22.939Z</published>
-    <updated>2017-11-23T03:08:22.939Z</updated>
+    <title>AWD思</title>
+    <link href="http://yoursite.com/2017/11/23/AWD%E6%80%9D/"/>
+    <id>http://yoursite.com/2017/11/23/AWD思/</id>
+    <published>2017-11-23T02:08:37.000Z</published>
+    <updated>2017-11-23T02:08:37.605Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>轰炸机</title>
+    <link href="http://yoursite.com/2017/11/15/%E8%BD%B0%E7%82%B8%E6%9C%BA/"/>
+    <id>http://yoursite.com/2017/11/15/轰炸机/</id>
+    <published>2017-11-15T13:52:02.000Z</published>
+    <updated>2017-11-16T01:21:00.782Z</updated>
+    
+    <content type="html"><![CDATA[<p>短信轰炸机<br>链接：<a href="http://pan.baidu.com/s/1kUFMwtT" target="_blank" rel="noopener">http://pan.baidu.com/s/1kUFMwtT</a> 密码：voa2<br>自取自用，电脑安卓机都可以。<br>声明：仅作学术交流使用，用于其他用途所产生的一切问题与本网站无关。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;p&gt;短信轰炸机&lt;br&gt;链接：&lt;a href=&quot;http://pan.baidu.com/s/1kUFMwtT&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://pan.baidu.com/s/1kUFMwtT&lt;/a&gt; 密码：voa2&lt;br&gt;自取自用，
       
     
     </summary>
+    
+      <category term="其他" scheme="http://yoursite.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>爬虫</title>
+    <link href="http://yoursite.com/2017/11/15/%E7%88%AC%E8%99%AB/"/>
+    <id>http://yoursite.com/2017/11/15/爬虫/</id>
+    <published>2017-11-15T08:32:19.000Z</published>
+    <updated>2017-11-16T01:50:57.748Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片爬虫</p><p> #-<em>- coding:utf-8 -</em>-<br>import re<br>import requests<br>for x in range(1,50):<br>        url = ‘<a href="http://simpledesktops.com/browse/&#39;+str(x" target="_blank" rel="noopener">http://simpledesktops.com/browse/&#39;+str(x</a>)<br>        print url<br>        html = requests.get(url).text<br>        pic_url = re.findall(‘src=”(.*?).295’,html,re.S)<br>        i = 0<br>        n=0<br>        for each in pic_url:<br>            n = n+1<br>            print each<br>            try:<br>                pic= requests.get(each, timeout=10)<br>            except requests.exceptions.ConnectionError:<br>                print ‘【错误】当前图片无法下载’<br>                continue<br>            string = ‘pic’+ str(x)+’-‘+str(n)+’.png’<br>            fp = open(‘/home/conty/pic/‘+string,’wb’)<br>            fp.write(pic.content)<br>            fp.close()<br>            i += 1<br>网页源码爬虫<br>import requests<br>import urllib2<br>a=’<a href="http://babycrack.2017.hctf.io/" target="_blank" rel="noopener">http://babycrack.2017.hctf.io/</a>‘<br>r = requests.get(a)<br>request = urllib2.Request(a)<br>response = urllib2.urlopen(a)</p><p>print type(r)<br>print response.read()g<br>网页文章爬虫<br>import urllib<br>import urllib2<br>import re</p><p>page = 1<br>url = ‘<a href="http://www.qiushibaike.com/hot/page/" target="_blank" rel="noopener">http://www.qiushibaike.com/hot/page/</a>‘ + str(page)<br>user_agent = ‘Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)’<br>headers = { ‘User-Agent’ : user_agent }<br>try:<br>    request = urllib2.Request(url,headers = headers)<br>    response = urllib2.urlopen(request)<br>    content = response.read().decode(‘utf-8’)<br>    pattern = re.compile(‘<div.*?author">.*?<a.*?<img.*?>(.*?).*?<div.*?'+ 'content"="">(.<em>?)&lt;!–(.</em>?)–&gt;.<em>?(.</em>?)&lt;div class=”stats.<em>?class=”number”&gt;(.</em>?)‘,re.S)<br>    items = re.findall(pattern,content)<br>    for item in items:<br>        haveImg = re.search(“img”,item[3])<br>        if not haveImg:<br>            print item[0],item[1],item[2],item[4]<br>except urllib2.URLError, e:<br>    if hasattr(e,”code”):<br>        print e.code<br>    if hasattr(e,”reason”):<br>        print e.reason</div.*?'+></a.*?<img.*?></div.*?author"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片爬虫&lt;/p&gt;
+&lt;p&gt; #-&lt;em&gt;- coding:utf-8 -&lt;/em&gt;-&lt;br&gt;import re&lt;br&gt;import requests&lt;br&gt;for x in range(1,50):&lt;br&gt;        url = ‘&lt;a href=&quot;http://simp
+      
+    
+    </summary>
+    
+      <category term="编程" scheme="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python脚本</title>
+    <link href="http://yoursite.com/2017/11/15/python%E8%84%9A%E6%9C%AC/"/>
+    <id>http://yoursite.com/2017/11/15/python脚本/</id>
+    <published>2017-11-15T05:44:47.000Z</published>
+    <updated>2017-11-16T01:50:51.538Z</updated>
+    
+    <content type="html"><![CDATA[<p>base64,32,16 顺序解密脚本<br>import base64<br>a = raw_input()<br>b = base64.b64decode(a)<br>print b<br>c= base64.b32decode(b)<br>print c<br>d = base64.b16decode(c)<br>print d<br>image绘制二维码脚本</p><p>#coding:utf-8<br>from PIL import Image<br>pic = Image.new(“RGB”,(280, 280))<br>fo = open(“flag.txt”,”r”)<br>pics = []<br>i=0<br>while True:<br>    if i == 78400:<br>        break<br>    a = fo.readline()<br>    pics.append(a)<br>    i = i + 1<br>str = “”<br>i=0<br>for y in range (0,280):<br>    for x in range (0,280):<br>        s = pics[i].split(‘,’)<br>        pic.putpixel([y,x],(int(s[0]), int(s[1]), int(s[2])))<br>        i = i+1<br>pic.show()</p><p>pic.save(“flag3.png”)<br>base读文件脚本<br>import base64<br>a=open(“flag1.txt”,”r”)<br>b=a.read()<br>c=base64.b64decode(b)<br>print c<br>进制转换脚本<br>import base64<br>a=open(“flag1.txt”,”r”)<br>b=a.read()<br>g=b.split(“ “)<br>p=””<br>for i in g:<br>    if i!=””:<br>        p+=chr(int(i,16))<br>print p        </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;base64,32,16 顺序解密脚本&lt;br&gt;import base64&lt;br&gt;a = raw_input()&lt;br&gt;b = base64.b64decode(a)&lt;br&gt;print b&lt;br&gt;c= base64.b32decode(b)&lt;br&gt;print c&lt;br&gt;d =
+      
+    
+    </summary>
+    
+      <category term="编程" scheme="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python</title>
+    <link href="http://yoursite.com/2017/11/15/python/"/>
+    <id>http://yoursite.com/2017/11/15/python/</id>
+    <published>2017-11-15T05:40:51.000Z</published>
+    <updated>2017-11-16T01:51:11.607Z</updated>
+    
+    <content type="html"><![CDATA[<p>输入输出<br>name = input(‘plase input your name ‘)<br>print ‘hello’,name</p><p>python 1.py</p><p>list<br>classmates[‘a’,’b’,’c’]<br>len(classmates)   查看classmates里面元素的数量<br>classmates[0]      用索引来访问list的每一个位置<br>‘a’                        索引的第一个是从0开始<br>classmates[2]      索引的最后一项是len(classmates)-1<br>‘b’                       如果要取最后一个元素可以用classmate[-1]<br>classmates[2]<br>‘c’</p><p>list是一个可变的有序表，所以，可以往list中追加元素到末尾：</p><blockquote><blockquote><blockquote><p>classmates.append(‘Adam’)<br>classmates<br>[‘Michael’, ‘Bob’, ‘Tracy’, ‘Adam’]<br>也可以把元素插入到指定的位置，比如索引号为1的位置：<br>classmates.insert(1, ‘Jack’)<br>classmates<br>[‘Michael’, ‘Jack’, ‘Bob’, ‘Tracy’, ‘Adam’]<br>要删除list末尾的元素，用pop()方法：<br>classmates.pop()<br>‘Adam’&gt;&gt;&gt; classmates<br>[‘Michael’, ‘Jack’, ‘Bob’, ‘Tracy’]<br>要删除指定位置的元素，用pop(i)方法，其中i是索引位置：<br>classmates.pop(1)<br>‘Jack’&gt;&gt;&gt; classmates<br>[‘Michael’, ‘Bob’, ‘Tracy’]<br>要把某个元素替换成别的元素，可以直接赋值给对应的索引位置：<br>classmates[1] = ‘Sarah’&gt;&gt;&gt; classmates<br>[‘Michael’, ‘Sarah’, ‘Tracy’]</p></blockquote></blockquote></blockquote><p>list元素也可以是另一个list，比如：</p><blockquote><blockquote><blockquote><p>s = [‘python’, ‘java’, [‘asp’, ‘php’], ‘scheme’]<br>len(s)<br>4<br>要注意s只有4个元素，其中s[2]又是一个list，如果拆开写就更容易理解了：<br>p = [‘asp’, ‘php’]<br>s = [‘python’, ‘java’, p, ‘scheme’]<br>要拿到’php’可以写p[1]或者s[2][1]，因此s可以看成是一个二维数组，类似的还有三维、四维……数组，不过很少用到。<br>如果一个list中一个元素也没有，就是一个空的list，它的长度为0：<br>L = []<br>len(L)<br>0<br>tuple</p></blockquote></blockquote></blockquote><p>另一种有序列表叫元组：tuple。tuple和list非常类似，但是tuple一旦初始化就不能修改，比如同样是列出同学的名字：</p><blockquote><blockquote><blockquote><p>classmates = (‘Michael’, ‘Bob’, ‘Tracy’)<br>现在，classmates这个tuple不能变了，它也没有append()，insert()这样的方法。其他获取元素的方法和list是一样的，你可以正常地使用classmates[0]，classmates[-1]，但不能赋值成另外的元素。<br>不可变的tuple有什么意义？因为tuple不可变，所以代码更安全。如果可能，能用tuple代替list就尽量用tuple。<br>tuple的陷阱：当你定义一个tuple时，在定义的时候，tuple的元素就必须被确定下来，比如：<br>t = (1, 2)<br>t<br>(1, 2)<br>如果要定义一个空的tuple，可以写成()：<br>t = ()<br>t<br>()<br>但是，要定义一个只有1个元素的tuple，如果你这么定义：<br>t = (1)<br>t<br>1<br>定义的不是tuple，是1这个数！这是因为括号()既可以表示tuple，又可以表示数学公式中的小括号，这就产生了歧义，因此，Python规定，这种情况下，按小括号进行计算，计算结果自然是1。<br>所以，只有1个元素的tuple定义时必须加一个逗号,，来消除歧义：<br>t = (1,)<br>t<br>(1,)<br>Python在显示只有1个元素的tuple时，也会加一个逗号,，以免你误解成数学计算意义上的括号。<br>最后来看一个“可变的”tuple：<br>t = (‘a’, ‘b’, [‘A’, ‘B’])<br>t[2][0] = ‘X’&gt;&gt;&gt; t[2][1] = ‘Y’&gt;&gt;&gt; t<br>(‘a’, ‘b’, [‘X’, ‘Y’])</p></blockquote></blockquote></blockquote><p>条件判断<br>elif是else if的缩写，完全可以有多个elif，所以if语句的完整形式就是：<br>if &lt;条件判断1&gt;:<br>&lt;执行1&gt;<br>elif &lt;条件判断2&gt;:<br>&lt;执行2&gt;<br>elif &lt;条件判断3&gt;:<br>&lt;执行3&gt;<br>else:<br>&lt;执行4&gt;</p><p>循环<br>for…in..循环<br>Python的循环有两种，一种是for…in循环，依次把list或tuple中的每个元素迭代出来，看例子：<br>names = [‘Michael’, ‘Bob’, ‘Tracy’]<br>for name in names:<br>print name</p><p>执行这段代码，会依次打印names的每一个元素</p><p>如果要计算1-100的整数之和，从1写到100有点困难，幸好Python提供一个range()函数，可以生成一个整数序列，比如range(5)生成的序列是从0开始小于5的整数：<br>range(101)就可以生成0-100的整数序列，计算如下：<br>sum = 0for x in range(101):<br>sum = sum + x<br>print sum<br>while循环<br>while循环，只要条件满足，就不断循环，条件不满足时退出循环。比如我们要计算100以内所有奇数之和，可以用while循环实现：<br>sum = 0<br>n = 99while n &gt; 0:<br>sum = sum + n<br>n = n - 2print sum<br>在循环内部变量n不断自减，直到变为-1时，不再满足while条件，循环退出。<br>dict<br>用dict实现，只需要一个“名字”-“成绩”的对照表，直接根据名字查找成绩，无论这个表有多大，查找速度都不会变慢。用Python写一个dict如下：</p><blockquote><blockquote><blockquote><p>d = {‘Michael’: 95, ‘Bob’: 75, ‘Tracy’: 85}<br>d[‘Michael’]<br>95<br>把数据放入dict的方法，除了初始化时指定外，还可以通过key放入：<br>d[‘Adam’] = 67&gt;&gt;&gt; d[‘Adam’]<br>67<br>是通过in判断key是否存在：<br>‘Thomas’ in d<br>False<br>二是通过dict提供的get方法，如果key不存在，可以返回None，或者自己指定的value：<br>d.get(‘Thomas’)<br>d.get(‘Thomas’, -1)<br>-1<br>注意：返回None的时候Python的交互式命令行不显示结果</p></blockquote></blockquote></blockquote><p>set</p><p>set和dict类似，也是一组key的集合，但不存储value。由于key不能重复，所以，在set中，没有重复的key。<br>要创建一个set，需要提供一个list作为输入集合：</p><blockquote><blockquote><blockquote><p>s = set([1, 2, 3])<br>s<br>set([1, 2, 3])<br>注意：<br>通过add(key)方法可以添加元素到set中，可以重复添加，但不会有效果<br>通过remove(key)方法可以删除元素：<br>函数<br>数据类型转换</p></blockquote></blockquote></blockquote><p>Python内置的常用函数还包括数据类型转换函数，比如int()函数可以把其他数据类型转换为整数：</p><blockquote><blockquote><blockquote><p>ord(‘b’)  # convert char to int<br>98<br>chr(100)  # convert int to char<br>‘d’<br>unichr(100) # return a unicode byte<br>u’d’  </p><p>int(‘123’)<br>123&gt;&gt;&gt; int(12.34)<br>12&gt;&gt;&gt; float(‘12.34’)<br>12.34&gt;&gt;&gt; str(1.23)<br>‘1.23’&gt;&gt;&gt; unicode(100)<br>u’100’&gt;&gt;&gt; bool(1)<br>True&gt;&gt;&gt; bool(‘’)<br>False<br>定义函数</p></blockquote></blockquote></blockquote><p>自定义一个求绝对值的my_abs函数为例：<br>def my_abs(x):<br>if x &gt;= 0:<br>return x<br>else:<br>return -x<br>修改一下my_abs的定义，对参数类型做检查，只允许整数和浮点数类型的参数。数据类型检查可以用内置函数isinstance实现：<br>def my_abs(x):<br>if not isinstance(x, (int, float)):<br>raise TypeError(‘bad operand type’)<br>if x &gt;= 0:<br>return x<br>else:<br>return -x<br>添加了参数检查后，如果传入错误的参数类型，函数就可以抛出一个错误：<br>函数的参数</p><p>默认参数<br>默认参数就派上用场了。由于我们经常计算x2，所以，完全可以把第二个参数n的默认值设定为2：<br>def power(x, n=2):<br>s = 1<br>while n &gt; 0:<br>n = n - 1<br>s = s * x<br>return s<br>这样，当我们调用power(5)时，相当于调用power(5, 2)：</p><blockquote><blockquote><blockquote><p>power(5)<br>25&gt;&gt;&gt; power(5, 2)<br>25<br>而对于n &gt; 2的其他情况，就必须明确地传入n，比如power(5, 3)。<br>关键字参数</p></blockquote></blockquote></blockquote><p>可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple。而关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict。请看示例：<br>def person(name, age, **kw):<br>print ‘name:’, name, ‘age:’, age, ‘other:’, kw<br>函数person除了必选参数name和age外，还接受关键字参数kw。在调用该函数时，可以只传入必选参数：</p><blockquote><blockquote><blockquote><p>person(‘Michael’, 30)<br>name: Michael age: 30 other: {}<br>也可以传入任意个数的关键字参数：<br>person(‘Bob’, 35, city=’Beijing’)<br>name: Bob age: 35 other: {‘city’: ‘Beijing’}<br>person(‘Adam’, 45, gender=’M’, job=’Engineer’)<br>name: Adam age: 45 other: {‘gender’: ‘M’, ‘job’: ‘Engineer’}<br>关键字参数有什么用？它可以扩展函数的功能。比如，在person函数里，我们保证能接收到name和age这两个参数，但是，如果调用者愿意提供更多的参数，我们也能收到。试想你正在做一个用户注册的功能，除了用户名和年龄是必填项外，其他都是可选项，利用关键字参数来定义这个函数就能满足注册的需求。<br>和可变参数类似，也可以先组装出一个dict，然后，把该dict转换为关键字参数传进去：<br>kw = {‘city’: ‘Beijing’, ‘job’: ‘Engineer’}<br>person(‘Jack’, 24, city=kw[‘city’], job=kw[‘job’])<br>name: Jack age: 24 other: {‘city’: ‘Beijing’, ‘job’: ‘Engineer’}<br>当然，上面复杂的调用可以用简化的写法：<br>kw = {‘city’: ‘Beijing’, ‘job’: ‘Engineer’}<br>person(‘Jack’, 24, **kw)<br>name: Jack age: 24 other: {‘city’: ‘Beijing’, ‘job’: ‘Engineer’}<br>参数组合</p></blockquote></blockquote></blockquote><p>函数的参数</p><p>阅读: 279892<br>定义函数的时候，我们把参数的名字和位置确定下来，函数的接口定义就完成了。对于函数的调用者来说，只需要知道如何传递正确的参数，以及函数将返回什么样的值就够了，函数内部的复杂逻辑被封装起来，调用者无需了解。</p><p>Python的函数定义非常简单，但灵活度却非常大。除了正常定义的必选参数外，还可以使用默认参数、可变参数和关键字参数，使得函数定义出来的接口，不但能处理复杂的参数，还可以简化调用者的代码。</p><p>默认参数</p><p>我们仍以具体的例子来说明如何定义函数的默认参数。先写一个计算x2的函数：<br>def power(x):<br>return x * x<br>当我们调用power函数时，必须传入有且仅有的一个参数x：</p><blockquote><blockquote><blockquote><p>power(5)<br>25&gt;&gt;&gt; power(15)<br>225<br>现在，如果我们要计算x3怎么办？可以再定义一个power3函数，但是如果要计算x4、x5……怎么办？我们不可能定义无限多个函数。<br>你也许想到了，可以把power(x)修改为power(x, n)，用来计算xn，说干就干：<br>def power(x, n):<br>s = 1<br>while n &gt; 0:<br>n = n - 1<br>s = s <em> x<br>return s<br>对于这个修改后的power函数，可以计算任意n次方：<br>power(5, 2)<br>25&gt;&gt;&gt; power(5, 3)<br>125<br>但是，旧的调用代码失败了，原因是我们增加了一个参数，导致旧的代码无法正常调用：<br>power(5)<br>Traceback (most recent call last):<br>File “<stdin>“, line 1, in <module><br>TypeError: power() takes exactly 2 arguments (1 given)<br>这个时候，默认参数就排上用场了。由于我们经常计算x2，所以，完全可以把第二个参数n的默认值设定为2：<br>def power(x, n=2):<br>s = 1<br>while n &gt; 0:<br>n = n - 1<br>s = s </module></stdin></em> x<br>return s<br>这样，当我们调用power(5)时，相当于调用power(5, 2)：<br>power(5)<br>25&gt;&gt;&gt; power(5, 2)<br>25<br>而对于n &gt; 2的其他情况，就必须明确地传入n，比如power(5, 3)。<br>从上面的例子可以看出，默认参数可以简化函数的调用。设置默认参数时，有几点要注意：<br>一是必选参数在前，默认参数在后，否则Python的解释器会报错（思考一下为什么默认参数不能放在必选参数前面）；<br>二是如何设置默认参数。<br>当函数有多个参数时，把变化大的参数放前面，变化小的参数放后面。变化小的参数就可以作为默认参数。<br>使用默认参数有什么好处？最大的好处是能降低调用函数的难度。<br>举个例子，我们写个一年级小学生注册的函数，需要传入name和gender两个参数：<br>def enroll(name, gender):<br>print ‘name:’, name<br>print ‘gender:’, gender<br>这样，调用enroll()函数只需要传入两个参数：<br>enroll(‘Sarah’, ‘F’)<br>name: Sarah<br>gender: F<br>如果要继续传入年龄、城市等信息怎么办？这样会使得调用函数的复杂度大大增加。<br>我们可以把年龄和城市设为默认参数：<br>def enroll(name, gender, age=6, city=’Beijing’):<br>print ‘name:’, name<br>print ‘gender:’, gender<br>print ‘age:’, age<br>print ‘city:’, city<br>这样，大多数学生注册时不需要提供年龄和城市，只提供必须的两个参数：<br>enroll(‘Sarah’, ‘F’)<br>Student:<br>name: Sarah<br>gender: F<br>age: 6<br>city: Beijing<br>只有与默认参数不符的学生才需要提供额外的信息：<br>enroll(‘Bob’, ‘M’, 7)<br>enroll(‘Adam’, ‘M’, city=’Tianjin’)<br>可见，默认参数降低了函数调用的难度，而一旦需要更复杂的调用时，又可以传递更多的参数来实现。无论是简单调用还是复杂调用，函数只需要定义一个。<br>有多个默认参数时，调用的时候，既可以按顺序提供默认参数，比如调用enroll(‘Bob’, ‘M’, 7)，意思是，除了name，gender这两个参数外，最后1个参数应用在参数age上，city参数由于没有提供，仍然使用默认值。<br>也可以不按顺序提供部分默认参数。当不按顺序提供部分默认参数时，需要把参数名写上。比如调用enroll(‘Adam’, ‘M’, city=’Tianjin’)，意思是，city参数用传进去的值，其他默认参数继续使用默认值。<br>默认参数很有用，但使用不当，也会掉坑里。默认参数有个最大的坑，演示如下：<br>先定义一个函数，传入一个list，添加一个END再返回：<br>def add_end(L=[]):<br>L.append(‘END’)<br>return L<br>当你正常调用时，结果似乎不错：<br>add_end([1, 2, 3])<br>[1, 2, 3, ‘END’]<br>add_end([‘x’, ‘y’, ‘z’])<br>[‘x’, ‘y’, ‘z’, ‘END’]<br>当你使用默认参数调用时，一开始结果也是对的：<br>add_end()<br>[‘END’]<br>但是，再次调用add_end()时，结果就不对了：<br>add_end()<br>[‘END’, ‘END’]<br>add_end()<br>[‘END’, ‘END’, ‘END’]<br>很多初学者很疑惑，默认参数是[]，但是函数似乎每次都“记住了”上次添加了’END’后的list。<br>原因解释如下：<br>Python函数在定义的时候，默认参数L的值就被计算出来了，即[]，因为默认参数L也是一个变量，它指向对象[]，每次调用该函数，如果改变了L的内容，则下次调用时，默认参数的内容就变了，不再是函数定义时的[]了。<br>所以，定义默认参数要牢记一点：默认参数必须指向不变对象！<br>要修改上面的例子，我们可以用None这个不变对象来实现：<br>def add_end(L=None):<br>if L is None:<br>L = []<br>L.append(‘END’)<br>return L<br>现在，无论调用多少次，都不会有问题：<br>add_end()<br>[‘END’]<br>add_end()<br>[‘END’]<br>为什么要设计str、None这样的不变对象呢？因为不变对象一旦创建，对象内部的数据就不能修改，这样就减少了由于修改数据导致的错误。此外，由于对象不变，多任务环境下同时读取对象不需要加锁，同时读一点问题都没有。我们在编写程序时，如果可以设计一个不变对象，那就尽量设计成不变对象。<br>可变参数</p></blockquote></blockquote></blockquote><p>在Python函数中，还可以定义可变参数。顾名思义，可变参数就是传入的参数个数是可变的，可以是1个、2个到任意个，还可以是0个。<br>我们以数学题为例子，给定一组数字a，b，c……，请计算a2 + b2 + c2 + ……。<br>要定义出这个函数，我们必须确定输入的参数。由于参数个数不确定，我们首先想到可以把a，b，c……作为一个list或tuple传进来，这样，函数可以定义如下：<br>def calc(numbers):<br>sum = 0<br>for n in numbers:<br>sum = sum + n * n<br>return sum<br>但是调用的时候，需要先组装出一个list或tuple：</p><blockquote><blockquote><blockquote><p>calc([1, 2, 3])<br>14&gt;&gt;&gt; calc((1, 3, 5, 7))<br>84<br>如果利用可变参数，调用函数的方式可以简化成这样：<br>calc(1, 2, 3)<br>14&gt;&gt;&gt; calc(1, 3, 5, 7)<br>84<br>所以，我们把函数的参数改为可变参数：<br>def calc(<em>numbers):<br>sum = 0<br>for n in numbers:<br>sum = sum + n </em> n<br>return sum<br>定义可变参数和定义list或tuple参数相比，仅仅在参数前面加了一个<em>号。在函数内部，参数numbers接收到的是一个tuple，因此，函数代码完全不变。但是，调用该函数时，可以传入任意个参数，包括0个参数：<br>calc(1, 2)<br>5&gt;&gt;&gt; calc()<br>0<br>如果已经有一个list或者tuple，要调用一个可变参数怎么办？可以这样做：<br>nums = [1, 2, 3]<br>calc(nums[0], nums[1], nums[2])<br>14<br>这种写法当然是可行的，问题是太繁琐，所以Python允许你在list或tuple前面加一个</em>号，把list或tuple的元素变成可变参数传进去：<br>nums = [1, 2, 3]<br>calc(*nums)<br>14<br>这种写法相当有用，而且很常见。<br>关键字参数</p></blockquote></blockquote></blockquote><p>可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple。而关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict。请看示例：<br>def person(name, age, **kw):<br>print ‘name:’, name, ‘age:’, age, ‘other:’, kw<br>函数person除了必选参数name和age外，还接受关键字参数kw。在调用该函数时，可以只传入必选参数：</p><blockquote><blockquote><blockquote><p>person(‘Michael’, 30)<br>name: Michael age: 30 other: {}<br>也可以传入任意个数的关键字参数：<br>person(‘Bob’, 35, city=’Beijing’)<br>name: Bob age: 35 other: {‘city’: ‘Beijing’}<br>person(‘Adam’, 45, gender=’M’, job=’Engineer’)<br>name: Adam age: 45 other: {‘gender’: ‘M’, ‘job’: ‘Engineer’}<br>关键字参数有什么用？它可以扩展函数的功能。比如，在person函数里，我们保证能接收到name和age这两个参数，但是，如果调用者愿意提供更多的参数，我们也能收到。试想你正在做一个用户注册的功能，除了用户名和年龄是必填项外，其他都是可选项，利用关键字参数来定义这个函数就能满足注册的需求。<br>和可变参数类似，也可以先组装出一个dict，然后，把该dict转换为关键字参数传进去：<br>kw = {‘city’: ‘Beijing’, ‘job’: ‘Engineer’}<br>person(‘Jack’, 24, city=kw[‘city’], job=kw[‘job’])<br>name: Jack age: 24 other: {‘city’: ‘Beijing’, ‘job’: ‘Engineer’}<br>当然，上面复杂的调用可以用简化的写法：<br>kw = {‘city’: ‘Beijing’, ‘job’: ‘Engineer’}<br>person(‘Jack’, 24, **kw)<br>name: Jack age: 24 other: {‘city’: ‘Beijing’, ‘job’: ‘Engineer’}<br>参数组合</p></blockquote></blockquote></blockquote><p>在Python中定义函数，可以用必选参数、默认参数、可变参数和关键字参数，这4种参数都可以一起使用，或者只用其中某些，但是请注意，参数定义的顺序必须是：必选参数、默认参数、可变参数和关键字参数。<br>比如定义一个函数，包含上述4种参数：<br>def func(a, b, c=0, <em>args, *</em>kw):<br>print ‘a =’, a, ‘b =’, b, ‘c =’, c, ‘args =’, args, ‘kw =’, kw<br>在函数调用的时候，Python解释器自动按照参数位置和参数名把对应的参数传进去。</p><blockquote><blockquote><blockquote><p>func(1, 2)<br>a = 1 b = 2 c = 0 args = () kw = {}<br>func(1, 2, c=3)<br>a = 1 b = 2 c = 3 args = () kw = {}<br>func(1, 2, 3, ‘a’, ‘b’)<br>a = 1 b = 2 c = 3 args = (‘a’, ‘b’) kw = {}<br>func(1, 2, 3, ‘a’, ‘b’, x=99)<br>a = 1 b = 2 c = 3 args = (‘a’, ‘b’) kw = {‘x’: 99}<br>最神奇的是通过一个tuple和dict，你也可以调用该函数：<br>args = (1, 2, 3, 4)<br>kw = {‘x’: 99}<br>func(<em>args, **kw)<br>a = 1 b = 2 c = 3 args = (4,) kw = {‘x’: 99}<br>所以，对于任意函数，都可以通过类似func(</em>args, **kw)的形式调用它，无论它的参数是如何定义的。</p></blockquote></blockquote></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;输入输出&lt;br&gt;name = input(‘plase input your name ‘)&lt;br&gt;print ‘hello’,name&lt;/p&gt;
+&lt;p&gt;python 1.py&lt;/p&gt;
+&lt;p&gt;list&lt;br&gt;classmates[‘a’,’b’,’c’]&lt;br&gt;len(cla
+      
+    
+    </summary>
+    
+      <category term="编程" scheme="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
   </entry>
